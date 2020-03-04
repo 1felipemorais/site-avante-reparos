@@ -1,13 +1,29 @@
 #body {
-    background: #fff;
+    background: rgb(245, 245, 245);
     font-family: 'Poppins', sans-serif;
-    color:#333;
+    color:rgb(0, 0, 0);
     line-height:1.6em;
   }
 
   /*
 03. NavBar
 */
+
+.list-group-item {
+  color: #ffc107 ;
+}
+
+.list-group-item:hover {
+  text-decoration: none;
+  color: #d6a512;
+}
+
+.list-group .active{
+  background-color: #ffc107 !important;
+  border-color: #8f6b01 !important;
+  color: #131518 !important;
+}
+
 
 .centro-container {
   marign:0 auto;
@@ -336,6 +352,14 @@ hr {
       background-color: #fec30349;
     }
 
+/*
+Serviços
+*/
 
-    
+.card {
+  font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+} 
+
+
 

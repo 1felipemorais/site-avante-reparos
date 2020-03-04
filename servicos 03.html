@@ -8,7 +8,10 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Teste</title>
+  <title>Avante Reparos</title>
+
+   <!-- CSS -->
+   <link rel="stylesheet" href="css/estyle.css" type="text/css">
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -16,9 +19,45 @@
   <!-- Custom styles for this template -->
   <link href="css/shop-item.css" rel="stylesheet">
 
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+
 </head>
 
-<body>
+<body id="body">
+
+  <!-- Inicio NavBar -->
+  <nav class="navbar navbar-expand-lg navbar-dark " id="mainNav">
+    <div class="container">
+      <!--<a class="navbar-brand js-scroll-trigger" href="#page-top">Avante Reparos</a>-->
+      <img src="imagens/Logo/logo1.png" height="70px" alt="">
+
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle navigation">
+        menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav text-uppercase ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="sobrenos.html">Sobre Nós</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="servicos.html">Serviços</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#team">Contatos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Fim NavBar -->
+  <br><br>
 
   <!-- Page Content -->
   <div class="container">
@@ -26,7 +65,7 @@
     <div class="row">
 
       <div class="col-lg-3">
-        <h1 class="my-4">Offshore</h1>
+        <h3 class="my-4">Offshore</h3>
         <div class="list-group">
           <a href="servicos.html" class="list-group-item">Caldeiraria</a>
           <a href="servicos 02.html" class="list-group-item">Motores</a>
@@ -38,9 +77,9 @@
       <div class="col-lg-9">
 
         <div class="card mt-4">
-          <img class="card-img-top img-fluid" src="img-serg/caldeiraria-900x550.jpg" alt="">
+          <img class="card-img-top img-fluid" src="imagens/img-servicos/Offshore.jpg" alt="">
           <div class="card-body">
-            <h3 class="card-title">Serviço Offshore</h3>
+            <h3 class="card-title">Manutenção em motores a diesel</h3>
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente dicta fugit fugiat hic aliquam itaque facere, soluta. Totam id dolores, sint aperiam sequi pariatur praesentium animi perspiciatis molestias iure, ducimus!</p>
           </div>
         </div>
@@ -57,7 +96,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis et enim aperiam inventore, similique necessitatibus neque non! Doloribus, modi sapiente laboriosam aperiam fugiat laborum. Sequi mollitia, necessitatibus quae sint natus.</p>
             <small class="text-muted">Posted by Anonymous on 3/1/17</small>   
             <hr>
-            <a href="#" class="btn btn-success">Galeria</a>
+            <a href="#" class="btn btn-warning">Galeria</a>
           </div>
         </div>
         <!-- /.card -->
@@ -69,6 +108,51 @@
 
   </div>
   <!-- /.container -->
+
+  <br><br>
+  <div id="rodape" class=" container-fluid row ">
+    <!-- Inicio Rodapé -->
+
+    <div class="col-sm-3 col-12">
+      <h1>Endereço</h1>
+      <p>R. Castelo, 455 - Jardim Limoeiro, Serra - ES, 29164-030</p>
+      <p></p>
+    </div>
+
+    <div class="col-sm-3 col-12 ">
+      <h1>Contato</h1>
+      <p>(ZZ)XXXX-XXXX - Fulano</p>
+      <p>(ZZ)XXXXX-XXXX - Fulano</p>
+      <p>email@avantereparos.com.br</p>
+      <p></p>
+    </div>
+
+    <!--
+    <div class="col-sm-2 col-12 text-center">
+      <h1>Redes Sociais</h1>
+      <a href="#"><img src="imagens/Redes Sociais/instagram.png" height="40px" alt="Logo Instagram"></a>
+      <a href="#"><img src="imagens/Redes Sociais/Facebook.png" height="40px" alt=""></a>
+    </div>
+-->
+
+    <div class="col-sm-4 col-12 text-center">
+      <a href="#"><img src="imagens/Logo/logo1.png" height="100px" alt=""></a>
+    </div>
+
+  </div><!-- Fim Rodapé -->
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+    
   
 
   <!-- Bootstrap core JavaScript -->
