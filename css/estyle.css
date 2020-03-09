@@ -5,6 +5,11 @@
     line-height:1.6em;
   }
 
+  #body h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+  }
+
 
 
 .margem-baixo {
@@ -316,14 +321,6 @@ background-color: black;
     #img-sobre {
       width: 100%;
       height: auto;
-      -webkit-filter: blur(1px);
-    }
-
-    #img-serv {
-      background-image:url(../imagens/servicos/img-princ.png);
-      width: 100%;
-      height: 300px;
-      -webkit-filter: blur(0.5px);
     }
     
 
