@@ -5,9 +5,11 @@
     line-height:1.6em;
   }
 
-  /*
-03. NavBar
-*/
+
+
+.margem-baixo {
+  margin-bottom: 30px;
+}
 
 .list-group-item {
   color: #ffc107 ;
@@ -26,7 +28,7 @@
 
 
 .centro-container {
-  marign:0 auto;
+  margin: 0 auto;
 }
 
 .container h3{
@@ -153,7 +155,7 @@ hr {
 }
 
 #circulo:hover {
-    background-color: #dbdbae;
+    background-color: #575757;
     cursor: pointer;
     -webkit-animation-delay: 1ms;
 }
@@ -171,9 +173,10 @@ hr {
 #a-avante {
   width: 100%;
   min-height: 400px;  
-  color: white;
+  color: black;
   text-align: center;
-  padding: 120px;
+  padding: 40px;
+  
   background-image: url(../imagens/imgPrincipal1.jpg);
   background-color: #fec503 !important;
   position: static;
@@ -182,11 +185,23 @@ hr {
 #a-avante h3 {
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
+  margin-top: 40px;
 }
 
 #a-avante p {
   font-family: 'Poppins', sans-serif;
+ 
+}
+
+#a-avante button {
+  font-family: 'Poppins', sans-serif;
   font-weight: 300;
+}
+
+
+#a-avante hr {
+color: black;
+background-color: black;
 }
 
 
@@ -219,12 +234,13 @@ hr {
 }
 
 #cliente-foto {
-  margin-top: 30px;
   margin-bottom: 115px;
   padding: 30px 0px;
   width: 100%;
   min-height: 300px;
   text-align: center;
+  background-color: #212529;
+  color: #d6a512;
 
 }
 
@@ -360,6 +376,42 @@ Serviços
   font-weight: 300;
     font-family: 'Poppins', sans-serif;
 } 
+
+* {
+  box-sizing: border-box;
+}
+
+.slider {
+    width: 70%;
+    margin: 30px auto;
+}
+
+.slick-slide {
+  margin: 0px 40px;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+
+.slick-slide {
+  transition: all ease-in-out .3s;
+  opacity: .2;
+}
+
+.slick-active {
+  opacity: .5;
+}
+
+.slick-current {
+  opacity: 1;
+}
 
 
 
