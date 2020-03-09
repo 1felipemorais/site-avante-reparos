@@ -63,9 +63,9 @@
 }
 
 hr {
-  border: 2px solid #ffc107;
-  color: #ffc107;
-  background-color: #ffc107;
+  border: 2px solid #fec503;
+  color: #fec503;
+  background-color: #fec503;
   height: 5px;
 }
 
@@ -314,10 +314,9 @@ background-color: black;
 
     /* Background sobre nós */ 
     #img-sobre {
-      background-image:url(../imagens/sobrenos/sobreprinc.jpg);
       width: 100%;
-      height: 300px;
-      -webkit-filter: blur(0.5px);
+      height: auto;
+      -webkit-filter: blur(1px);
     }
 
     #img-serv {
