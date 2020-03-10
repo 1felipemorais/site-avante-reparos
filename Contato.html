@@ -10,8 +10,8 @@
 
   <title>Avante Reparos</title>
 
-   <!-- CSS -->
-   <link rel="stylesheet" href="css/estyle.css" type="text/css">
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/estyle.css" type="text/css">
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -59,38 +59,89 @@
   <!-- Fim NavBar -->
   <br><br>
 
+  <div class="container-fluid">
+
+    <div class="row">
+
+
+      <div class="col-xl-6 p-4 text-center">
+
+       <h3>Entre Em Contato</h3>
+       <hr width="100px">
+       <p>Preencha o formulário abaixo e em breve responderemos sua mensagem. Lembre-se de que se você pode entrar em contato diretamente pelo nosso telefone.</p>
+
+       <br><br>
+
+       <form name="formulario" action="Contato.html" method="post">
+        <input type=hidden name="destino" value="srfelipemorais@gmail.com">
+        <input type=hidden name="enviado" value="http://www.seudominio.xxx.yy/enviado.htm">
+        <p class="text-left"><b>Nome:</b><br>
+        <input type=text name="nome" size="45"></p>
+        <p class="text-left"><b>Email:</b><br>
+        <input type=text name="email" size="45"></p>
+        <p class="text-left"><b>Assunto:</b><br>
+        <input type=text name="assunto" size="45"></p>
+        <p class="text-left"><b>Mensagem:</b><br>
+        <textarea name="Mensagem" rows="10" cols="60" wrap="virtual"></textarea></p>
+        <p class="text-left"><input type="submit" value="Enviar Email"></p>
+        </form>
+
+
+      </div>
+
+      
+      <div class="col-xl-6 p-4">
+        <br><br><br><br><br>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3744.0736664007645!2d-40.26735558557433!3d-20.214259652430513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb81929a00c957b%3A0xdbd3dc9cc0a330d2!2sAvante%20Reparos%20Navais!5e0!3m2!1spt-BR!2sbr!4v1583798534074!5m2!1spt-BR!2sbr"
+          width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+          tabindex="0"></iframe>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+
+
+
   <div id="meu-contato"></div>
 
+
+
   <!-- Inicio Rodapé -->
-<div id="div-amarelo"></div>
+  <div id="div-amarelo"></div>
 
-<div id="pre-rodape">    
-  <a href="#"><img class="escala-cinza" src="imagens/Redes Sociais/instagram.png" alt=""></a>
-  <a href="#"><img class="escala-cinza" src="imagens/Redes Sociais/Facebook.png" alt=""></a>
-</div>
-
-
-<div id="rodape" class=" container-fluid row ">
-
-  <div class="col-sm-3 col-12">
-    <h1>Endereço</h1>
-    <p>R. Castelo, 455 - Jardim Limoeiro, Serra - ES, 29164-030</p>
-    <p></p>
+  <div id="pre-rodape">
+    <a href="#"><img class="escala-cinza" src="imagens/Redes Sociais/instagram.png" alt=""></a>
+    <a href="#"><img class="escala-cinza" src="imagens/Redes Sociais/Facebook.png" alt=""></a>
   </div>
 
-  <div class="col-sm-3 col-12 ">
-    <h1>Contato</h1>
-    <p>(ZZ)XXXX-XXXX - Fulano</p>
-    <p>(ZZ)XXXXX-XXXX - Fulano</p>
-    <p>email@avantereparos.com.br</p>
-    <p></p>
-  </div>
-  
-  <div class="col-sm-4 col-12 text-center">
-    <a href="#"><img src="imagens/Logo/logo1.png" height="100px" alt=""></a>
-  </div>
 
-</div><!-- Fim Rodapé -->
+  <div id="rodape" class=" container-fluid row ">
+
+    <div class="col-sm-3 col-12">
+      <h1>Endereço</h1>
+      <p>R. Castelo, 455 - Jardim Limoeiro, Serra - ES, 29164-030</p>
+      <p></p>
+    </div>
+
+    <div class="col-sm-3 col-12 ">
+      <h1>Contato</h1>
+      <p>(ZZ)XXXX-XXXX - Fulano</p>
+      <p>(ZZ)XXXXX-XXXX - Fulano</p>
+      <p>email@avantereparos.com.br</p>
+      <p></p>
+    </div>
+
+    <div class="col-sm-4 col-12 text-center">
+      <a href="#"><img src="imagens/Logo/logo1.png" height="100px" alt=""></a>
+    </div>
+
+  </div><!-- Fim Rodapé -->
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -103,8 +154,8 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
-    
-  
+
+
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
