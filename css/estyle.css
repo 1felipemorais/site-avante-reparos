@@ -415,4 +415,38 @@ Serviços
   height: 50vh;
 }
 
+input[type=text]{  
+  border-radius:1px;
+  -moz-border-radius:1px;
+  -webkit-border-radius:1px;
+  box-shadow: 1px 1px 2px #a0a0a0;    
+  -moz-box-shadow: 1px 1px 2px #a0a0a0;
+  -webkit-box-shadow: 1px 1px 2px #a0a0a0;
+  background: #fffefe; 
+  border:1px solid #c9c9c9;
+  width:300px
+}
+
+textarea{
+  border-radius:1px;
+  -moz-border-radius:1px;
+  -webkit-border-radius:1px;
+  box-shadow: 1px 1px 2px #a0a0a0;    
+  -moz-box-shadow: 1px 1px 2px #a0a0a0;
+  -webkit-box-shadow: 1px 1px 2px #a0a0a0;
+  background: #fffefe; 
+  border:1px solid #c9c9c9;
+  width:500px
+}
+
+input[type=submit]{
+      background:#d6a512;
+      color: black;
+      border:1px solid black;
+      padding: 5px 5px;
+      border-radius:2px;
+  -moz-border-radius:2x;
+  -webkit-border-radius:2px;
+}
+   
 
