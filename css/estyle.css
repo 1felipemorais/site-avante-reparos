@@ -503,3 +503,31 @@ input[type=submit]{
   font-weight: 300;
   font-family: 'Poppins', sans-serif;
 }
+
+
+#servicos-avante {
+  width: 100%;
+  min-height: 350px;
+  background-color: white;
+ /* box-shadow: 3px 3px 2px #d1d0d0;*/
+  border: 1px solid #e4e2e2 ;
+  border-radius: 2px;
+  color: #fec503;
+  cursor: pointer;
+}
+
+
+#servicos-avante h3, p {
+  font-weight: 300;
+  font-family: 'Poppins', sans-serif;
+  padding: 20px 20px 0px;
+}
+
+#servicos-avante a{
+  color: #fec503;
+  text-decoration: none;
+}
+
+#servicos-avante a:hover{
+  color: #292929;
+}
