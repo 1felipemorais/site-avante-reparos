@@ -526,6 +526,9 @@ input[type=submit]{
 #servicos-avante a{
   color: #fec503;
   text-decoration: none;
+  font-weight: 700;
+  padding: 20px;
+  text-align: left;
 }
 
 #servicos-avante a:hover{
