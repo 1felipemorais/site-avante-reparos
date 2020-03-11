@@ -68,10 +68,10 @@
 }
 
 hr {
-  border: 2px solid #fec503;
+  border: 10px solid #fec503;
   color: #fec503;
   background-color: #fec503;
-  height: 5px;
+  height: 10px;
 }
 
 
@@ -239,7 +239,7 @@ background-color: black;
 }
 
 #cliente-foto {
-  margin-bottom: 115px;
+  
   padding: 30px 0px;
   width: 100%;
   min-height: 300px;
@@ -383,7 +383,7 @@ Serviços
 }
 
 .slick-slide {
-  margin: 0px 40px;
+  margin: 0px 30px;
 }
 
 .slick-slide img {
@@ -450,3 +450,35 @@ input[type=submit]{
 }
    
 
+#nossas-solucoes {
+  width: 100%;
+  min-height: 300px;
+  background-color: white;
+ /* box-shadow: 3px 3px 2px #d1d0d0;*/
+  border: 1px solid #e4e2e2 ;
+  border-radius: 2px;
+  padding: 50px 10px;
+  margin-bottom: -120px;
+
+}
+
+#nossos-parceiros {
+  width: 100%;
+  min-height: 400px;
+  background-color: white;
+ /* box-shadow: 3px 3px 2px #d1d0d0;*/
+  border: 1px solid #e4e2e2 ;
+  border-radius: 2px;
+  color: #fec503;
+}
+
+#nossos-parceiros img {
+  float: left;
+  width: 100%;
+}
+
+#nossos-parceiros p, h3 {
+  padding: 30px;
+  font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+}
