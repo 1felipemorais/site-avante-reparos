@@ -238,13 +238,14 @@ background-color: black;
 
 #cliente-foto {
   
-  padding: 30px 0px;
+  padding-bottom: 30px;
   width: 100%;
   min-height: 300px;
   text-align: center;
+  /*background-color: #212529;*/
   background-color: #212529;
   color: #d6a512;
-
+  border-radius: 2px;
 }
 
 #cliente-foto h3{
