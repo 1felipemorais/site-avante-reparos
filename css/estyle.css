@@ -180,8 +180,7 @@ hr {
   min-height: 400px;  
   color: black;
   text-align: center;
-  padding: 40px;
-  
+  padding: 40px;  
   background-image: url(../imagens/imgPrincipal1.jpg);
   background-color: #fec503 !important;
   position: static;
@@ -190,7 +189,6 @@ hr {
 #a-avante h3 {
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
-  margin-top: 40px;
 }
 
 #a-avante p {
@@ -457,10 +455,14 @@ input[type=submit]{
  /* box-shadow: 3px 3px 2px #d1d0d0;*/
   border: 1px solid #e4e2e2 ;
   border-radius: 2px;
-  padding: 50px 10px;
+  padding: 10px 10px 50px;
   margin-bottom: -120px;
+}
+
+#nossas-solucoes h3 {
 
 }
+
 
 #nossos-parceiros {
   width: 100%;
@@ -480,5 +482,5 @@ input[type=submit]{
 #nossos-parceiros p, h3 {
   padding: 30px;
   font-weight: 300;
-    font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
